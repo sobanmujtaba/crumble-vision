@@ -25,8 +25,6 @@ assets/trays/*.csv
 # Processed data splits
 data/processed/
 
-# Raw image dataset (optional – uncomment if images are large)
-# data/Images/
 
 # Logs and databases
 *.log
