@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+src/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Model weights (large files)
+*.pth
+*.pt
+*.pkl
+*.h5
+*.joblib
+
+# Generated tray images and predictions
+assets/trays/*.jpg
+assets/trays/*.png
+assets/trays/*.csv
+
+# Processed data splits
+data/processed/
+
+# Raw image dataset (optional – uncomment if images are large)
+# data/Images/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# HTML drafts (keep only the main index.html)
+index1.html
+index2.html
+
+# Streamlit secrets (if any)
+.streamlit/secrets.toml
+
+# Python coverage files
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
